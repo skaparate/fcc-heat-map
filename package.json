@@ -1,0 +1,18 @@
+{
+  "name": "fcc-heat-map",
+  "version": "1.0.0",
+  "description": "A Free Code Camp data visualization project",
+  "main": "index.html",
+  "author": "skaparate",
+  "license": "MIT",
+  "devDependencies": {
+    "parcel-bundler": "^1.12.4"
+  },
+  "dependencies": {
+    "d3": "^5.12.0"
+  },
+  "scripts": {
+    "start": "parcel index.html --open",
+    "build": "parcel build index.html"
+  }
+}
